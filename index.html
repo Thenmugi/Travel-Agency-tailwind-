@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="tailwind.config.js">
+    <title>Travel Agency</title>
+</head>
+<body>
+    <div class="global-home h-screen">
+        <div class="home_nav flex w-4/5 justify-between m-auto p-3 md:p-8 ">
+            <div class="nav_title font-black flex-1 text-3xl ">Jadoo</div>
+            <div class="flex ">
+                <div class=" md:hidden w-20 mx-5 my-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>  
+                </div>
+                <div class="hidden md:block relative top-2">
+                    <a href="" class="px-1 font-medium text-gray-800 lg:px-8">Destinations</a>
+                    <a href="" class="px-1 font-medium text-gray-800 lg:px-8">Hotels</a>
+                    <a href="" class="px-1 font-medium text-gray-800 lg:px-8">Flights</a>
+                    <a href="" class="px-1 font-medium text-gray-800 lg:px-8">Bokkings</a>
+                    <a href="" class="px-1 font-medium text-gray-800 lg:px-8">Login</a>
+                </div>
+            </div>
+            <div class="nav_buttons flex md:relative bottom-1">
+                <div class="signup border rounded-md flex p-1 md:py-2 px-4">Sign up</div>
+                <div class="en font-medium px-3 flex relative top-2">EN
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                      </svg> 
+                </div>
+            </div>
+        </div>
+        <div class="home_main flex  flex-col w-4/5 h-3/4 m-auto mt-5 md:flex-row">
+            <div class="travel_img h-1/2 md:hidden ">
+                <img src="images/Traveller 1.png" class="1/4" alt="">
+            </div>
+            <div class="home_left w-2/2 h-1/2 mt-12  md:h-3/4 flex flex-col justify-between">
+                <div class="div_h1 text-red-600 font-bold">BEST DESTINATIONS AROUND THE WORLD</div>
+                <div class="div_title w-3/4 text-3xl font-black md:text-5xl" style="font-family: 'Times New Roman', Times, serif;">
+                    Travel,enjoy and live a new and full life
+                </div>
+                <div class="div_p text-gray-600">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur amet modi doloremque. Autem, est non!</p>
+                </div>
+                <div class="div_button flex gap-x-2">
+                    <div class=" bg-yellow-500 py-3 rounded-md border border-x-yellow-500 shadow-lg shadow-yellow-300 text-white">Find out more</div>
+                    <div class="div_demo flex gap-x-2">
+                        <div class="div  rounded-3xl h-10 w-10 bg-red-600 border border-red-600 shadow-lg shadow-red-300 text-gray-400"><img src="images/Polygon 1.png  " class="relative w-2/2 m-auto top-3 " alt=""></div>
+                        <div class="text-gray-600 mt-2">Play Demo</div>
+                    </div>
+                </div>
+            </div>
+            <div class="home_right hidden md:block">
+                <img src="images/Traveller 1.png " alt="" class="md:h-full">
+            </div>
+        </div>
+    </div>
+    <div class="global-category  h-3/4 font-sans">
+        <div class="heading text-center text-slate-800 font-semibold text-xs pt-5 md:pt-10 text-sm ">CATEGORY</div>
+        <div>
+            <h1 class="text-center font-semibold text-2xl md:text-4xl" style="font-family: 'Times New Roman', Times, serif;">We Offer Best Services</h1>
+        </div>
+        <div class=" sub-category flex flex-col gap-y-1 mt-10  gap-x-4 w-1/2 mx-auto relative bottom-9 h-1/2 lg:h-1/3 md:flex-row md:mt-20 md:w-4/5 ">
+            <div class="sub rounded-2xl flex flex-col md:gap-y-5  shadow-xl ">
+                <img src="images/satellite-dish.png" alt="" class="w-12 m-auto  ">
+                <h2 class="text-center font-bold">Calculated Weather</h2>
+                <p class="text-center text-sm text-slate-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorem ipsa quos.</p>
+            </div>
+            <div class="sub rounded-2xl flex flex-col  md:gap-y-5  shadow-xl ">
+                <img src="images/Group.png" alt="" class="w-12 m-auto ">
+                <h2 class="text-center font-bold">Best Flights</h2>
+                <p class="text-center text-sm text-slate-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorem ipsa quos.</p>
+            </div>
+            <div class="sub rounded-2xl flex flex-col  md:gap-y-5  shadow-xl ">
+                <img src="images/image 25.png" alt="" class="w-9 m-auto ">
+                <h2 class="text-center font-bold">Local Events</h2>
+                <p class="text-center text-sm text-slate-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorem ipsa quos.</p>
+            </div>
+            <div class="sub  rounded-2xl flex flex-col shadow-xl md:gap-y-5 shadow-xl ">
+                <img src="images/power-supply 1.png" alt="" class="w-12 m-auto ">
+                <h2 class="text-center font-bold">Customization</h2>
+                <p class="text-center text-sm text-slate-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorem ipsa quos.</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="destinations_global h-screen text-center  md:p-8 md:h-3/4">
+        <div class="top font-bold text-gray-500">Top Selling</div>
+        <div class="text-center font-black text-3xl md:text-3xl" style="font-family:'Times New Roman', Times, serif">Top Destinations</div>
+        <br>
+        <br>
+        <div class="w-5/6 h-5/6 m-auto relative bottom-5  flex flex-col gap-y-4 md:flex-row gap-x-10 text-sm text-gray-600 md:w-3/4 md:h-2/4">
+            <div class="h-1/2 w-2/3 rounded-lg shadow-md shadow-slate-300 m-auto md:h-full md:w-1/3">
+                <img src="images/Rectangle 14 (2).png" alt="" class="h-64 w-full md:h-72">
+                <div class="relative  bottom-11 md:bottom-16">
+                <div class="flex w-3/4 m-auto justify-between">
+                    <div>Rome,Italy</div>
+                    <div>$5,42k</div>
+                </div>
+                <div class="flex w-3/4 m-auto">
+                    <img src="images/navigation 1.png" alt="">
+                    28 Days Trip</div>
+                </div>
+            </div>
+            <div class=" h-1/2 w-2/3 rounded-lg shadow-md shadow-slate-300 m-auto md:h-full md:w-1/3">
+                <img src="images/Rectangle 14 (3).png" alt="" class="h-64 w-full md:h-72">
+                <div class="relative  bottom-11 md:bottom-16">
+                <div class="flex w-3/4 m-auto justify-between">
+                    <div>Rome,Italy</div>
+                    <div>$5,42k</div>
+                </div>
+                <div class="flex w-3/4 m-auto">
+                    <img src="images/navigation 1.png" alt="">
+                    28 Days Trip</div>
+                </div>
+            </div>
+            <div class=" h-1/3 w-2/3 rounded-lg shadow-md shadow-slate-300 m-auto hidden md:block md:h-full md:w-1/3">
+                <img src="images/Rectangle 14 (2).jpg" alt="" class="h-52 w-full md:h-72">
+                <div class="relative bottom-16">
+                <div class="flex w-3/4 m-auto justify-between">
+                    <div>Rome,Italy</div>
+                    <div>$5,42k</div>
+                </div>
+                <div class="flex w-3/4 m-auto">
+                    <img src="images/navigation 1.png" alt="">
+                    28 Days Trip</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="easy_fast h-2/3 md:h-screen" >
+        <div class="ef_main w-3/4 h-4.5/6 m-auto relative top-5 flex flex-col md:top-20  md:flex-row ">
+            <div class="ef_left w-full h-1/2 flex  flex-col md:w-3/5 gap-y-6 md:h-full">
+                <div class=" text-gray-600 font-bold ">Easy and Fast</div>
+                <div class="text-2xl w-3/4 font-black md:text-4xl relative bottom-4 md:bottom-0" style="font-family: 'Times New Roman', Times, serif;">Book Your Next Trip In 3 Easy Steps</div>
+                <div class="choose_w flex gap-x-3 relative bottom-9 md:bottom-0">
+                    <img src="images/Group 7.png" alt="" class="h-10  md:h-20 w-20">
+                    <div class="ef_details" >
+                        <div class=" text-gray-600 font-bold">Choose Destination</div>
+                        <div class="text-gray-600 w-5/6 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum error quam nam optio autem, nulla </div>
+                    </div>
+                </div>
+                <div class="make_p flex gap-x-3 relative bottom-12 md:bottom-0">
+                    <img src="images/Group 12.png" alt="" class="h-10  md:h-20 w-20">
+                    <div class="ef_details">
+                        <div class=" text-gray-600 font-bold">Make Payment</div>
+                        <div class="text-gray-600 w-5/6 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum error quam nam optio autem, nulla </div>
+                    </div>
+                </div>
+                <div class="reach_p flex gap-x-3 relative bottom-14 md:bottom-0">
+                    <img src="images/Group 11.png" alt="" class="h-10  md:h-20 w-20">
+                    <div class="ef_details">
+                        <div class=" text-gray-600 font-bold">Reach Airport On Selected Date</div>
+                        <div class="text-gray-600 w-5/6 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum error quam nam optio autem, nulla </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ef_right relative top-13 bottom-5 w-full rounded-3xl h-1/3 my-auto shadow-lg shadow-gray-400 md:w-2/5 md:h-3/4 md:top-0 md:bottom-0">
+                <div class="ef_right_img flex flex-row md:flex-col">
+                    <img src="images/Rectangle 17.jpg" class="h-full w-1/2 m-auto my-3 md:w-3/4"  alt="" >
+                    <div class="ef_details w-3/4 m-auto flex flex-col gap-y-4">
+                        <div class="ef_trip font-medium">Trip To Greece</div>
+                        <div class="text-sm text-gray-500">14-29 June| by Robbin john</div>
+                        <div class="round flex gap-x-2">
+                            <div class="div1 bg-slate-200 rounded-full h-11 w-11">
+                                <img src="images/leaf 1.png" alt="" class="w-4 m-auto relative top-3">
+                            </div>
+                            <div class="div1 bg-slate-200 rounded-full h-11 w-11">
+                                <img src="images/Group (1).png" alt="" class="w-4 m-auto relative top-3">
+                            </div>
+                            <div class="div1 bg-slate-200 rounded-full h-11 w-11">
+                                <img src="images/send 2.png" alt="" class="w-4 m-auto relative top-3">
+                            </div>
+                        </div>
+                    
+                    <div class="last flex justify-between">
+                        <div class="l flex">
+                            <img src="images/Group (2).png" alt="">
+                            <div class="text-sm text-gray-500">24 people going</div>
+                        </div>
+                        <div>
+                            <img src="images/Vector (9).png" alt="">
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="testimonals-global h-screen flex flex-col">
+        <div class="testimonals-main h-2/4 w-5/6 m-auto relative top-12  flex flex-col md:flex-row gap-x-10">
+            <div class="testi_left w-full h-full md:w-1/3">
+                <div class=" text-gray-600 font-bold ">TESTIMONALS</div>
+                <div class="text-4xl font-black" style="font-family: 'Times New Roman', Times, serif;">What People Say About Us.</div>
+            </div>
+            <div class="testi-right w-2/3 h-full m-auto md:m-0">
+                <div class="testi_one_right h-3/4 w-full  rounded-xl shadow-lg shadow-slate-400 flex md:w-3/4">
+                    <div class="profile w-full md:w-1/3">
+                        <img src="images/Image (13).png" alt="" class=" h-16 w-16 ">
+                    </div>
+                    <div class="profile_details ">
+                        <br class=" hidden md:block">
+                        <br class=" hidden md:block">
+                        <p class="font-medium text-sm text-gray-600 md:font-medium md:text-lg">"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis mollitia fugit minima enim ex laborum praesentium a doloremque repellat at."</p>
+                        <br class="hidden md:block">
+                        <p class="font-bold  text-gray-600 ">Mike taylor</p>
+                        <p class="font-medium  text-gray-600 text-sm ">Lahore,Pakistan</p>
+                    </div>
+                </div>
+                <div class="testi_second_right w-4/6 h-2/6 relative left-14  rounded-b-xl border border-gray-300 md:h-1/6">
+                    <p class="font-bold text-gray-600">Chris Thomas</p>
+                    <p class="font-medium  text-gray-600 text-sm ">CEO of Red Button</p>
+                </div>
+            </div>
+        </div>
+        <img src="images/logos.png" alt="" class="w-3/4 m-auto relative ">
+    </div>
+    <div class="subscribe-global h-screen">
+        <div class="sub_main w-3/4 rounded-tl-3xl rounded-br-3xl h-2/6 m-auto bg-gray-100 relative top-20">
+            <div class="w-3/4 m-auto relative top-12">
+                <p class="text-center font-bold text-xl relative top-13">Subscribe to get information, latest news and other interesting offers about jadoo</p>
+            </div>
+            <div class="flex relative top-16 w-3/5 mx-auto gap-x-3">
+                <div class="email rounded h-10 text-sm text-slate-400 w-2/3 bg-white p-2 flex gap-x-2">
+                    <img src="images/Group 46.png" alt="">
+                    Your mail</div>
+                <div class="bg-orange-400 h-10 w-15 rounded-md p-2 px-5 text-white">subscribe</div>
+            </div>
+        </div>
+        <div class="sub_details w-3/4 h-2/6 m-auto mt-32 flex">
+            <div class="div w-1/6 h-full">
+                <div class="font-semibold text-3xl">Jadoo.</div>
+                <br>
+                <p class="text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, vitae?</p>
+            </div>
+            <div class="div w-1/6 h-full">
+                <h5 class="text-center font-bold">Company</h5>
+                <br>
+                <p class="text-center text-sm text-gray-600">About</p>
+                <p class="text-center text-sm text-gray-600">Careers</p>
+                <p class="text-center text-sm text-gray-600">Mobile</p>
+            </div>
+            <div class="div w-1/6 h-full">
+                <h5 class="text-center font-bold">Contact</h5>
+                <br>
+                <p class="text-center text-sm text-gray-600">Help/FAQ</p>
+                <p class="text-center text-sm text-gray-600">Press</p>
+                <p class="text-center text-sm text-gray-600">Affilates</p>
+            </div>
+            <div class="div w-1/6 h-full">
+                <h5 class="text-center font-bold">More</h5>
+                <br>
+                <p class="text-center text-sm text-gray-600">Airline fees</p>
+                <p class="text-center text-sm text-gray-600">Airline</p>
+                <p class="text-center text-sm text-gray-600">Low fare tips</p>
+            </div>
+            <div class="div w-2/6">
+                <div class="social flex w-full h-1/6">
+                    <img src="images/Social.png" alt="">
+                    <img src="images/Social (1).png" alt="">
+                    <img src="images/Social (2).png" alt="">
+                </div>
+                <div class="text-gray-600">Discover our app</div>
+                <div class=" flex flex-col gap-y-3 h-10 md:flex-row gap-x-3 ">
+                    <img src="images/Google Play.png" alt="">
+                    <img src="images/Play Store.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
